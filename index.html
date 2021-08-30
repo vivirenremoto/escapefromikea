@@ -27,6 +27,7 @@
     var pos = '';
     
     setInterval(function(){
+      if( unityInstance ){
         var orientation = screen.orientation.type;
         var orientation_aux = orientation.indexOf('landscape') > -1 ? 'landscape' : 'portait';
         if( pos != orientation_aux ){
@@ -36,6 +37,7 @@
 
             unityInstance.SendMessage('Main Camera', 'changePosition', pos);
         }
+       }
     }, 1);
     
     </script>
