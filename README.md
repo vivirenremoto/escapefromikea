@@ -1,6 +1,6 @@
 # Escape from IKEA
 
-[Web](https://vivirenremoto.github.io/escapefromikea/)
+[Web](https://vivirenremoto.itch.io/escape-from-ikea)
 
 [Autor](https://twitter.com/vivirenremoto)
 
